@@ -38,7 +38,25 @@
     width: 13.75rem;
     right: 0;
     height: calc(100vh - 40px);
+    font-size: 21px;
+    font-weight: 700;
+}
 
+#sidebar-toggler form input {
+    width: 175px;
+    height: 25px;
+    border: 0;
+    text-indent: 0 !important;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#sidebar-toggler form input:focus {
+    box-shadow:none !important;
+}
+
+#sidebar-toggler .nav-item a {
+    color: black;
 }
 
 #main-nav {
