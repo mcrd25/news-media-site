@@ -18,3 +18,7 @@
 #main-left-nav .nav-item {
     font-size: 0.8rem;
 }
+
+.wrapper {
+    max-width: 25vw;
+}
