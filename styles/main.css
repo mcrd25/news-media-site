@@ -4,6 +4,14 @@
 
 /* Navbar Styling */
 
+.text-red{
+    color: #f72210 !important;
+}
+
+.bg-red {
+    background-color: #f72210 !important;
+}
+
 #main-left-nav .nav-item {
     font-size: 0.8rem;
 }
