@@ -4,6 +4,9 @@
 
 /* Navbar Styling */
 
+.navbar-brand svg path {
+    fill: #fff;
+}
 .text-red{
     color: #f72210 !important;
 }
