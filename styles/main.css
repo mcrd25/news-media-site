@@ -19,6 +19,23 @@
     font-size: 0.8rem;
 }
 
-.wrapper {
+#sidebar{
     max-width: 25vw;
+}
+
+.side-nav-toggler {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.side-nav-toggler:hover {
+    color: #fff;
+}
+
+
+/* lg media query */
+@media (min-width: 992px) {
+    #sidebar-toggler {
+        display: none !important;
+    }
 }
