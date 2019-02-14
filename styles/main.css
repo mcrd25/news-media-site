@@ -1,6 +1,8 @@
 
 /* General Styling*/
-
+body {
+    font-family: 'Roboto Condensed',sans-serif;
+}
 
 /* Navbar Styling */
 
@@ -38,7 +40,7 @@
     width: 13.75rem;
     right: 0;
     height: calc(100vh - 40px);
-    font-size: 21px;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
@@ -58,14 +60,46 @@
 #sidebar-toggler .nav-item a {
     color: black;
 }
-
+#sidebar-toggler .nav-item a:hover {
+    color: #fff;
+    background-color: #000;
+}
+#sidebar-toggler .nav-item a:hover i{
+    color: #f72210;
+}
 #main-nav {
     height: 2.5rem;
+}
+
+#date {
+    color: #fff;
+    font-weight: 200;
 }
 
 /* lg media query */
 @media (min-width: 992px) {
     #sidebar-toggler {
         display: none !important;
+    }
+
+    #main-nav {
+        height: 6.5rem;
+    }
+
+    .navbar-brand svg {
+        height: 90px;
+        width: 395px;
+    }
+
+
+    .navbar-brand {
+        margin: auto;
+    }
+    #main-left-nav,
+    #date {
+        margin-top: 2.2rem;
+    }
+    #main-left-nav .nav-item {
+        font-size: 1.1rem;
     }
 }
