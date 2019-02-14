@@ -32,6 +32,18 @@
     color: #fff;
 }
 
+#sidebar-toggler {
+    position: absolute;
+    background-color: #fff;
+    width: 13.75rem;
+    right: 0;
+    height: calc(100vh - 40px);
+
+}
+
+#main-nav {
+    height: 2.5rem;
+}
 
 /* lg media query */
 @media (min-width: 992px) {
