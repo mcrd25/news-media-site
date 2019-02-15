@@ -28,6 +28,7 @@ body {
 .side-nav-toggler {
     color: #fff;
     font-size: 1.2rem;
+    margin-left: 1rem;
 }
 
 .side-nav-toggler:hover {
@@ -79,20 +80,22 @@ body {
     padding: 0;
     margin-left: -1px;
     position: relative;
-}
-#sub-nav .nav {
-    line-height: 24px;
     padding: 0;
     margin: 0;
     padding: 1rem 0;
     border-bottom: 2px solid #f4f5f6;
-    
+}
+#sub-nav .nav {
+    line-height: 24px;
+    flex-grow: 1;    
 }
 #sub-nav .nav .nav-item {
     border-left: 1px solid #d9d9d9;
+    flex-grow: 1;  
 }
 #sub-nav .nav .nav-item a {
-    padding: 0 1rem;
+    text-align: center;
+    padding: 0 0.3rem;
     font-size: 1.3rem;
     font-weight: 700;
     color: black;
@@ -108,13 +111,18 @@ body {
 
 #sub-search input {
     font-weight: 300;
+    font-size: 1rem;
     letter-spacing: 0.1rem;
     width: 4rem;
     height: 30px;
     border: 0;
     text-indent: 0 !important;
-    padding-left: 0;
-    margin-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#sub-search {
+    margin-right: 5rem;
 }
 
 /* lg media query */
