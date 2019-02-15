@@ -114,12 +114,14 @@ body {
     }
 
     .navbar-brand {
-        margin-left: 30%;
+        margin: auto;
     }
+
 
     #main-left-nav,
     #date {
         margin-top: 2.2rem;
+        width: 14rem;
     }
     #main-left-nav .nav-item {
         font-size: 1.1rem;
