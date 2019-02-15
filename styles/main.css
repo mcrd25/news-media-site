@@ -76,6 +76,12 @@ body {
     font-weight: 200;
 }
 
+#sub-nav .nav .nav-item a {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+}
+
 /* lg media query */
 @media (min-width: 992px) {
     #sidebar-toggler {
@@ -91,10 +97,10 @@ body {
         width: 395px;
     }
 
-
     .navbar-brand {
         margin-left: 30%;
     }
+
     #main-left-nav,
     #date {
         margin-top: 2.2rem;
