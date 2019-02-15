@@ -164,12 +164,16 @@ END GENERAL STYLES
 
 .section-title {
     margin-top: 1rem;
-    font-weight: 500;
-    color: #888 !important;
+    font-weight: 600;
+    color: #999 !important;
     font-size: 1rem;
 }
 
-.top-story-title a{
+.main-story {
+    border-bottom: 2px solid #f4f5f6;
+}
+
+.top-story-title a {
     font-size: 1.3rem;
     font-weight: 600;
     color: #000;
@@ -181,7 +185,39 @@ END GENERAL STYLES
 
 .top-story-descr {
     font-size: 0.8rem;
-    color: #555;
+    color: #333 !important;
+}
+
+.related-title {
+    font-size: 19px !important;
+    font-weight: 600;
+    
+}
+
+.related-title a {
+    color: #000;
+}
+
+.related-title a:hover {
+    color: #f72210;
+}
+
+#more-stories .section-title{
+    border-bottom: 2px solid #f4f5f6;
+    font-weight: 600;
+}
+
+.story {
+    border-bottom: 2px solid #f4f5f6;
+}
+
+.story-details .story-title {
+    font-size: 17px !important;
+    font-weight: 600;
+}
+
+.story-details .story-title a {
+    color: #000;
 }
 
 /* END Main COnt */
