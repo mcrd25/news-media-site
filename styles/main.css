@@ -93,7 +93,7 @@ body {
 
 
     .navbar-brand {
-        margin: auto;
+        margin-left: 30%;
     }
     #main-left-nav,
     #date {
