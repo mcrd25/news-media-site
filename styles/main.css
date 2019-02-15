@@ -4,10 +4,17 @@ body {
     font-family: 'Roboto Condensed',sans-serif;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 .container-fluid {
     max-width: 1310px;
 }
 
+.c-pointer {
+    cursor: pointer;
+}
 /* Navbar Styling */
 
 .navbar-brand svg path {
@@ -20,6 +27,25 @@ body {
 .bg-red {
     background-color: #f72210 !important;
 }
+
+/*
+GENERAL STYLES
+*/
+.category {
+    position: absolute;
+    font-size: 1.0625rem;
+    font-weight: bold;
+    left: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    padding: 8px 15px 9px;
+    background-color: rgba(255, 255, 255, .9);
+}
+/*
+END GENERAL STYLES
+*/
+
+/* START Navigation */
 
 #main-left-nav .nav-item {
     font-size: 0.8rem;
@@ -126,6 +152,43 @@ body {
 
 #sub-search {
     margin-right: 5rem;
+}
+
+/* END Navigation */
+
+/* START Main Cont */
+
+.img-wrapper {
+    position: relative;
+}
+
+.section-title {
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #888 !important;
+    font-size: 1rem;
+}
+
+.top-story-title a{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.top-story-title a:hover {
+    text-decoration: underline #f72210 !important;
+}
+
+.top-story-descr {
+    font-size: 0.5rem;
+    color: #333;
+}
+
+/* END Main COnt */
+
+#top-story-img {
+    width: 100%;
+    margin-right: 1rem;
 }
 
 /* lg media query */
