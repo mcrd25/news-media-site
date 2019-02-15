@@ -53,7 +53,7 @@ body {
     margin-left: 0;
 }
 
-#sidebar-toggler form input:focus {
+#sidebar-toggler form input:focus, #sub-nav form input:focuss {
     box-shadow:none !important;
 }
 
@@ -75,17 +75,25 @@ body {
     color: #fff;
     font-weight: 200;
 }
+#sub-nav {
+    padding: 0;
+    margin-left: -1px;
+    position: relative;
+}
 #sub-nav .nav {
     line-height: 24px;
     padding: 0;
     margin: 0;
+    padding: 1rem 0;
+    border-bottom: 2px solid #f4f5f6;
+    
 }
 #sub-nav .nav .nav-item {
     border-left: 1px solid #d9d9d9;
 }
 #sub-nav .nav .nav-item a {
     padding: 0 1rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: black;
     line-height: 24px;
@@ -94,8 +102,19 @@ body {
     color: #f72210;
 }
 
-#sub-nav form input:focus {
+#sub-search input:focus {
     box-shadow: none !important;
+}
+
+#sub-search input {
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    width: 4rem;
+    height: 30px;
+    border: 0;
+    text-indent: 0 !important;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 /* lg media query */
@@ -114,7 +133,7 @@ body {
     }
 
     .navbar-brand {
-        margin: auto;
+        margin-left: auto;
     }
 
 
