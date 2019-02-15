@@ -175,13 +175,13 @@ END GENERAL STYLES
     color: #000;
 }
 
-.top-story-title a:hover {
+.main-article-hover a:hover {
     text-decoration: underline #f72210 !important;
 }
 
 .top-story-descr {
-    font-size: 0.5rem;
-    color: #333;
+    font-size: 0.8rem;
+    color: #555;
 }
 
 /* END Main COnt */
