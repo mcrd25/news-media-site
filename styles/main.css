@@ -54,7 +54,7 @@ body {
     margin-left: 0;
 }
 
-#sidebar-toggler form input:focus, #sub-nav form input:focuss {
+#sidebar-toggler form input:focus {
     box-shadow:none !important;
 }
 
@@ -80,7 +80,6 @@ body {
     padding: 0;
     margin-left: -1px;
     position: relative;
-    padding: 0;
     margin: 0;
     padding: 1rem 0;
     border-bottom: 2px solid #f4f5f6;
