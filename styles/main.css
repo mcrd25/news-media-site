@@ -75,11 +75,27 @@ body {
     color: #fff;
     font-weight: 200;
 }
-
+#sub-nav .nav {
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+}
+#sub-nav .nav .nav-item {
+    border-left: 1px solid #d9d9d9;
+}
 #sub-nav .nav .nav-item a {
+    padding: 0 1rem;
     font-size: 1.2rem;
     font-weight: 700;
     color: black;
+    line-height: 24px;
+}
+#sub-nav .nav .nav-item a:hover {
+    color: #f72210;
+}
+
+#sub-nav form input:focus {
+    box-shadow: none !important;
 }
 
 /* lg media query */
