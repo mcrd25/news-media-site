@@ -43,7 +43,7 @@ GENERAL STYLES
 }
 
 .newsweek-icon {
-    /* display: inline; */
+    display: inline-block;
     width: 29px;
     height: 28px;
     background: url(https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg) center/contain no-repeat #f72210;
@@ -349,10 +349,12 @@ END GENERAL STYLES
     width: 100%;
 }
 
-.section-title {
+.section-title-2 {
     text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(85, 85, 85);
 }
-
 
 
 /* IN Magazine Section END */
