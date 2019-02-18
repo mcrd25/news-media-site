@@ -217,6 +217,18 @@ END GENERAL STYLES
 .hover-title a:hover {
     color: #f72210;
 }
+
+.opinion-author {
+    font-size: 14px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(85, 85, 85);
+}
+
+.opinion-author a {
+    color: rgb(85, 85, 85);
+}
+
 /* More Stories Start */
 #more-stories .section-title {
     border-bottom: 2px solid #f4f5f6;
@@ -291,8 +303,16 @@ END GENERAL STYLES
     width: 63px;
     height: 63px;
     background: url("https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/opinion-headshot-bg.png") center no-repeat #f72210;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
+}
+
+#opinion .story-border {
+    padding-top: 0.5rem;
+}
+
+.opinion-title {
+    text-transform: capitalize;
 }
 
 
