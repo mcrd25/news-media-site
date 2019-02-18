@@ -4,6 +4,17 @@ body {
     font-family: 'Roboto Condensed',sans-serif;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+.container-fluid {
+    max-width: 1310px;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
 /* Navbar Styling */
 
 .navbar-brand svg path {
@@ -16,6 +27,25 @@ body {
 .bg-red {
     background-color: #f72210 !important;
 }
+
+/*
+GENERAL STYLES
+*/
+.category {
+    position: absolute;
+    font-size: 1.0625rem;
+    font-weight: bold;
+    left: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    padding: 8px 15px 9px;
+    background-color: rgba(255, 255, 255, .9);
+}
+/*
+END GENERAL STYLES
+*/
+
+/* START Navigation */
 
 #main-left-nav .nav-item {
     font-size: 0.8rem;
@@ -43,6 +73,7 @@ body {
     height: calc(100vh - 40px);
     font-size: 1.2rem;
     font-weight: 700;
+    z-index: 1000;
 }
 
 #sidebar-toggler form input {
@@ -72,6 +103,10 @@ body {
     height: 2.5rem;
 }
 
+.navbar-brand {
+    
+}
+
 #date {
     color: #fff;
     font-weight: 200;
@@ -94,7 +129,7 @@ body {
 }
 #sub-nav .nav .nav-item a {
     text-align: center;
-    padding: 0 0.3rem;
+    padding: 0 0.1rem;
     font-size: 1.3rem;
     font-weight: 700;
     color: black;
@@ -122,6 +157,214 @@ body {
 
 #sub-search {
     margin-right: 5rem;
+}
+
+/* END Navigation */
+
+/* START Main Cont */
+
+#top-story-img {
+    width: 100%;
+    margin-right: 1rem;
+}
+
+.img-wrapper {
+    position: relative;
+}
+
+.section-title {
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #999 !important;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.main-story {
+    border-bottom: 2px solid #f4f5f6;
+}
+
+.top-story-title a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.top-story-title {
+    line-height: 23px;
+}
+
+.main-article-hover a:hover {
+    text-decoration: underline #f72210 !important;
+}
+
+.top-story-descr {
+    font-size: 0.8125rem;
+    color: #333 !important;
+    line-height: 1.5;
+}
+
+.related-title {
+    font-size: 19px !important;
+    font-weight: 600;
+    
+}
+
+.opinion-title {
+    font-size: 17px !important;
+    font-weight: 600;
+}
+
+.hover-title a {
+    color: #000;
+}
+
+.hover-title a:hover {
+    color: #f72210!important;
+}
+
+.opinion-author {
+    font-size: 14px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(85, 85, 85);
+}
+
+.opinion-author a {
+    color: rgb(85, 85, 85);
+}
+
+/* More Stories Start */
+#more-stories .section-title {
+    border-bottom: 2px solid #f4f5f6;
+    font-weight: 600;
+    padding-bottom: 0.6rem !important;
+}
+
+.story-border {
+    margin: auto;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f4f5f6;
+    padding-top: 1rem;
+}
+
+.row {
+    padding-bottom: 0 !important;
+}
+
+.story-details .story-title {
+    font-size: 17px !important;
+    font-weight: 600;
+}
+
+.story-details .story-title a {
+    color: #000;
+    text-transform: capitalize;
+}
+
+.story-details {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.story-img-wrapper {
+    height: 90px;
+    padding-right: 0.875rem !important;
+    max-width: 135px !important; 
+    /* pr-2 is 0.5rem & pr-3 is 1rem */
+}
+
+/* .story-img {
+    height: 90px;
+    width: 135px;
+} */
+
+.story-img {
+    width: 100%;
+    height: 100%;
+}
+
+.story-descr {
+    line-height: 1.333;
+    margin-bottom: 0!important;
+}
+
+/* More Stories End */
+
+/* END Main COnt */
+
+/* START FEATURED STORY */
+
+.featured-story {
+    margin-bottom: 1.2rem;
+}
+
+/* END FEATURED STORY */
+
+/* START OPINION */
+.headshot {
+    border-radius: 50%;
+    min-width: 63px;
+    height: 63px;
+    background: url("https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/opinion-headshot-bg.png") center no-repeat #f72210;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.headshot img {
+    position: absolute;
+    height: 63px;
+    width: 63px;
+}
+
+#opinion .story-border {
+    padding-top: 0.5rem;
+}
+
+.opinion-title {
+    text-transform: capitalize;
+}
+
+/* LATEST NEWS START */
+
+.latest-news-wrap {
+    min-width: 258px !important;
+    min-height: 172px !important;
+}
+
+/* LATEST NEWS END */
+
+
+
+/*sm media query */
+@media (min-width: 576px) {
+    
+    .story-img-wrapper {
+        max-width: 258px !important;
+        height: 172px;
+    }
+
+    /* .story-border {
+        padding-top: 1rem;
+    } */
+}
+
+/* md media query*/
+@media (min-width: 768px) { 
+    .story-img-wrapper {
+        height: 90px; 
+        max-width: 135px !important;
+    }
+
+    .story-descr {
+        font-size: 15px;
+    }
+
+    .latest-news-wrap {
+        min-width: 135px !important;
+        min-height: 90px !important;
+    }
+    
 }
 
 /* lg media query */
