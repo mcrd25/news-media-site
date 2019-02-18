@@ -73,6 +73,7 @@ END GENERAL STYLES
     height: calc(100vh - 40px);
     font-size: 1.2rem;
     font-weight: 700;
+    z-index: 1000;
 }
 
 #sidebar-toggler form input {
@@ -100,6 +101,10 @@ END GENERAL STYLES
 }
 #main-nav {
     height: 2.5rem;
+}
+
+.navbar-brand {
+    
 }
 
 #date {
@@ -215,7 +220,7 @@ END GENERAL STYLES
 }
 
 .hover-title a:hover {
-    color: #f72210;
+    color: #f72210!important;
 }
 
 .opinion-author {
@@ -300,11 +305,17 @@ END GENERAL STYLES
 /* START OPINION */
 .headshot {
     border-radius: 50%;
-    width: 63px;
+    min-width: 63px;
     height: 63px;
     background: url("https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/opinion-headshot-bg.png") center no-repeat #f72210;
     /* overflow: hidden; */
     position: relative;
+}
+
+.headshot img {
+    position: absolute;
+    height: 63px;
+    width: 63px;
 }
 
 #opinion .story-border {
