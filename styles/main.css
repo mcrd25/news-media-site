@@ -41,6 +41,15 @@ GENERAL STYLES
     padding: 8px 15px 9px;
     background-color: rgba(255, 255, 255, .9);
 }
+
+.newsweek-icon {
+    /* display: inline; */
+    width: 29px;
+    height: 28px;
+    background: url(https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
+    
+}
 /*
 END GENERAL STYLES
 */
@@ -334,7 +343,19 @@ END GENERAL STYLES
 
 /* LATEST NEWS END */
 
+/* In Magazine Section START */
 
+#latest-issue .img-wrapper img {
+    width: 100%;
+}
+
+.section-title {
+    text-transform: uppercase;
+}
+
+
+
+/* IN Magazine Section END */
 
 /*sm media query */
 @media (min-width: 576px) {
