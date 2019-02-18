@@ -268,7 +268,6 @@ END GENERAL STYLES
 }
 
 .story-img-wrapper {
-    
     height: 90px;
     padding-right: 0.875rem !important;
     max-width: 135px !important; 
@@ -326,6 +325,15 @@ END GENERAL STYLES
     text-transform: capitalize;
 }
 
+/* LATEST NEWS START */
+
+.latest-news-wrap {
+    min-width: 258px !important;
+    min-height: 172px !important;
+}
+
+/* LATEST NEWS END */
+
 
 
 /*sm media query */
@@ -340,6 +348,8 @@ END GENERAL STYLES
         padding-top: 1rem;
     } */
 }
+
+/* md media query*/
 @media (min-width: 768px) { 
     .story-img-wrapper {
         height: 90px; 
@@ -348,6 +358,11 @@ END GENERAL STYLES
 
     .story-descr {
         font-size: 15px;
+    }
+
+    .latest-news-wrap {
+        min-width: 135px !important;
+        min-height: 90px !important;
     }
     
 }
