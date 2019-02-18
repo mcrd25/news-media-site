@@ -205,11 +205,16 @@ END GENERAL STYLES
     
 }
 
-.related-title a {
+.opinion-title {
+    font-size: 17px !important;
+    font-weight: 600;
+}
+
+.hover-title a {
     color: #000;
 }
 
-.related-title a:hover {
+.hover-title a:hover {
     color: #f72210;
 }
 /* More Stories Start */
@@ -223,6 +228,7 @@ END GENERAL STYLES
     margin: auto;
     padding-bottom: 1rem;
     border-bottom: 2px solid #f4f5f6;
+    padding-top: 1rem;
 }
 
 .row {
@@ -264,6 +270,7 @@ END GENERAL STYLES
 
 .story-descr {
     line-height: 1.333;
+    margin-bottom: 0!important;
 }
 
 /* More Stories End */
@@ -278,6 +285,18 @@ END GENERAL STYLES
 
 /* END FEATURED STORY */
 
+/* START OPINION */
+.headshot {
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    background: url("https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/opinion-headshot-bg.png") center no-repeat #f72210;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
 /*sm media query */
 @media (min-width: 576px) {
     
@@ -285,6 +304,10 @@ END GENERAL STYLES
         max-width: 258px !important;
         height: 172px;
     }
+
+    /* .story-border {
+        padding-top: 1rem;
+    } */
 }
 @media (min-width: 768px) { 
     .story-img-wrapper {
@@ -295,6 +318,7 @@ END GENERAL STYLES
     .story-descr {
         font-size: 15px;
     }
+    
 }
 
 /* lg media query */
