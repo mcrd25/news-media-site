@@ -185,6 +185,10 @@ END GENERAL STYLES
     color: #000;
 }
 
+.top-story-title {
+    line-height: 23px;
+}
+
 .main-article-hover a:hover {
     text-decoration: underline #f72210 !important;
 }
@@ -217,7 +221,6 @@ END GENERAL STYLES
 
 .story-border {
     margin: auto;
-    padding-top: 1rem;
     padding-bottom: 1rem;
     border-bottom: 2px solid #f4f5f6;
 }
@@ -249,11 +252,6 @@ END GENERAL STYLES
     /* pr-2 is 0.5rem & pr-3 is 1rem */
 }
 
-
-
-
-
-
 /* .story-img {
     height: 90px;
     width: 135px;
@@ -267,8 +265,6 @@ END GENERAL STYLES
 .story-descr {
     line-height: 1.333;
 }
-
-
 
 /* More Stories End */
 
