@@ -43,7 +43,7 @@ GENERAL STYLES
 }
 
 .newsweek-icon {
-    /* display: inline; */
+    display: inline-block;
     width: 29px;
     height: 28px;
     background: url(https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg) center/contain no-repeat #f72210;
@@ -346,13 +346,69 @@ END GENERAL STYLES
 /* In Magazine Section START */
 
 #latest-issue .img-wrapper img {
+    min-width: 100% !important;
+}
+
+#latest-issue .btn{
+    color: black;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #f4f5f6;
+}
+
+#latest-issue .btn:hover {
+    background-color: #ddd;
+}
+
+.section-title-2 {
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(85, 85, 85);
+}
+
+.magazine-img {
+    height: 311px;
     width: 100%;
 }
 
-.section-title {
-    text-transform: uppercase;
+.mag-title {
+    line-height: 0.5 !important;
 }
 
+.mag-title a {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+.mag-category-wrapper {
+    text-transform: uppercase;
+    font-size: 16px;
+	line-height: 1.625;
+    font-weight: 600;
+}
+
+.mag-label {
+    background-color: #f72210;
+    color: #fff;
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+}
+
+.mag-category {
+    color: #f72210;
+}
+
+#in-mag-border {
+    display: none;
+}
+
+.img-wrapper img {
+    vertical-align: center;
+    height: auto;
+}
 
 
 /* IN Magazine Section END */
@@ -386,6 +442,23 @@ END GENERAL STYLES
         min-height: 90px !important;
     }
     
+    /* In Magazine START */
+    #in-mag-border {
+        display: flex;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    #mag-second-col {
+        margin-top: 0 !important;
+    }
+
+    .magazine-img {
+        min-height: 180px !important;
+        max-height: 240px !important;
+    }
+
+    /* In Magazine END */
 }
 
 /* lg media query */
@@ -415,5 +488,10 @@ END GENERAL STYLES
     }
     #main-left-nav .nav-item {
         font-size: 1.1rem;
+    }
+
+    /* In the magazine section START */
+    .magazine-img {
+        height: 240px !important;
     }
 }
