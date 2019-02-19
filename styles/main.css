@@ -346,7 +346,7 @@ END GENERAL STYLES
 /* In Magazine Section START */
 
 #latest-issue .img-wrapper img {
-    width: 100%;
+    min-width: 100% !important;
 }
 
 #latest-issue .btn{
@@ -452,6 +452,12 @@ END GENERAL STYLES
     #mag-second-col {
         margin-top: 0 !important;
     }
+
+    .magazine-img {
+        min-height: 180px !important;
+        max-height: 240px !important;
+    }
+
     /* In Magazine END */
 }
 
@@ -482,5 +488,10 @@ END GENERAL STYLES
     }
     #main-left-nav .nav-item {
         font-size: 1.1rem;
+    }
+
+    /* In the magazine section START */
+    .magazine-img {
+        height: 240px !important;
     }
 }
