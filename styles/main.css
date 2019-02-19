@@ -349,6 +349,17 @@ END GENERAL STYLES
     width: 100%;
 }
 
+#latest-issue .btn{
+    color: black;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#latest-issue .btn:hover {
+    background-color: #ddd;
+}
+
 .section-title-2 {
     text-transform: uppercase;
     font-size: 19px;
