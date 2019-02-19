@@ -356,6 +356,43 @@ END GENERAL STYLES
     color: rgb(85, 85, 85);
 }
 
+.magazine-img {
+    height: 311px;
+    width: 100%;
+}
+
+.mag-title a {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+.mag-title a {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.mag-category-wrapper {
+    text-transform: uppercase;
+    font-size: 16px;
+	line-height: 1.625;
+	font-weight: 700;
+}
+
+.mag-label {
+    background-color: #f72210;
+    color: #fff;
+}
+
+.mag-category {
+    color: #f72210;
+}
+
+.img-wrapper img {
+    vertical-align: center;
+    height: auto;
+}
+
 
 /* IN Magazine Section END */
 
