@@ -520,6 +520,10 @@ footer .story-border {
     margin-top: 0 !important;
 }
 
+#footer-links {
+    color: rgb(102, 102, 102);
+}
+
 .footer-link {
     font-size: 14px;
     line-height: 1.071;
@@ -590,7 +594,11 @@ FOOTER END
     /* In Magazine END */
 
     /* FOOTER */
+    .footer-link:not(:last-child) {
+        border-right: 1px solid rgb(102, 102, 102, .5);
+    }
 
+    /*  FOOTER END */
 }
 
 /* lg media query */
@@ -626,4 +634,6 @@ FOOTER END
     .magazine-img {
         height: 240px !important;
     }
+
+    
 }
