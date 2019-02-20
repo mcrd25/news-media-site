@@ -440,6 +440,17 @@ END GENERAL STYLES
     bottom: -4px;
     right: -4px;
 }
+
+#category-stories .col-md-4 .col-sm-12 {
+    padding: 0 !important;
+}
+
+.category-title a {
+    color: #f72210;
+    font-size: 22px;
+    font-weight: 600;
+}
+
 /* SLideshow Section END */
 
 /*sm media query */
@@ -449,10 +460,6 @@ END GENERAL STYLES
         max-width: 258px !important;
         height: 172px;
     }
-
-    /* .story-border {
-        padding-top: 1rem;
-    } */
 }
 
 /* md media query*/
