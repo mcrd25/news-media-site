@@ -28,6 +28,20 @@ a {
     background-color: #f72210 !important;
 }
 
+#main-nav .nav-item .btm-sm {
+    padding: 0 !important;
+}
+
+#subscribe {
+    border-radius: 0;
+    padding: 0.08rem 0.3rem !important;
+    margin-top: 5px;
+}
+
+#sign-in {
+    font-weight: 600;
+}
+
 /*
 GENERAL STYLES
 */
