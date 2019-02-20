@@ -20,6 +20,10 @@ a {
 .navbar-brand svg path {
     fill: #fff;
 }
+
+.navbar-brand {
+    padding-top: 0.5rem;
+}
 .text-red{
     color: #f72210 !important;
 }
@@ -184,7 +188,7 @@ END GENERAL STYLES
 
 /* START Main Cont */
 
-#top-story-img {
+.top-story-img {
     width: 100%;
     margin-right: 1rem;
 }
@@ -605,6 +609,9 @@ FOOTER END
         max-height: 240px !important;
     }
 
+    .mag-title a {
+        font-size: 20px;
+    }
     /* In Magazine END */
 
     /* FOOTER */
