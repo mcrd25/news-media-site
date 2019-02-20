@@ -461,6 +461,15 @@ footer {
     padding: 1rem;
 }
 
+footer .copyright {
+    font-size: 12px;
+}
+
+/* footer .copyright p {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+} */
+
 .footer-brand svg path {
     width: 236px !important;
     height: 36px !important;
@@ -474,6 +483,11 @@ footer {
 
 #footer-social .social-link {
     color: #666;
+    font-size: 24px;
+}
+
+#footer-social {
+    margin-bottom: 0;
 }
 
 .fa-facebook-square:hover {
@@ -498,6 +512,31 @@ footer {
 
 .fa-linkedin-in:hover {
     color: #0077B5;
+}
+
+footer .story-border {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+.footer-link {
+    font-size: 14px;
+    line-height: 1.071;
+    color: rgb(102, 102, 102);
+}
+
+.footer-link:hover {
+    color: black;
+}
+
+footer #editions span {
+    font-weight: 700;
+}
+
+footer #editions span:hover {
+    font-weight: 700;
+    color: rgb(102, 102, 102);
 }
 
 /* 
@@ -549,6 +588,9 @@ FOOTER END
     }
 
     /* In Magazine END */
+
+    /* FOOTER */
+
 }
 
 /* lg media query */
