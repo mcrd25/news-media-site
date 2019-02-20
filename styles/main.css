@@ -453,6 +453,99 @@ END GENERAL STYLES
 
 /* SLideshow Section END */
 
+/*
+FOOTER START
+*/
+
+footer {
+    padding: 1rem;
+}
+
+footer .copyright {
+    font-size: 12px;
+}
+
+/* footer .copyright p {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+} */
+
+.footer-brand svg path {
+    width: 236px !important;
+    height: 36px !important;
+    fill: #f72210;
+}
+
+.footer-brand svg {
+    width: 236px !important;
+    height: 36px !important;
+}
+
+#footer-social .social-link {
+    color: #666;
+    font-size: 24px;
+}
+
+#footer-social {
+    margin-bottom: 0;
+}
+
+.fa-facebook-square:hover {
+    color: #3B5998;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-google-plus-g:hover {
+    color: #DD4B39;
+}
+
+.fa-instagram:hover {
+    color: #405DE6;
+}
+
+.fa-tumblr:hover {
+    color: #35465C;
+}
+
+.fa-linkedin-in:hover {
+    color: #0077B5;
+}
+
+footer .story-border {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+#footer-links {
+    color: rgb(102, 102, 102);
+}
+
+.footer-link {
+    font-size: 14px;
+    line-height: 1.071;
+    color: rgb(102, 102, 102);
+}
+
+.footer-link:hover {
+    color: black;
+}
+
+footer #editions span {
+    font-weight: 700;
+}
+
+footer #editions span:hover {
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+}
+
+/* 
+FOOTER END 
+*/
 /*sm media query */
 @media (min-width: 576px) {
     
@@ -499,6 +592,13 @@ END GENERAL STYLES
     }
 
     /* In Magazine END */
+
+    /* FOOTER */
+    .footer-link:not(:last-child) {
+        border-right: 1px solid rgb(102, 102, 102, .5);
+    }
+
+    /*  FOOTER END */
 }
 
 /* lg media query */
@@ -534,4 +634,6 @@ END GENERAL STYLES
     .magazine-img {
         height: 240px !important;
     }
+
+    
 }
