@@ -20,12 +20,30 @@ a {
 .navbar-brand svg path {
     fill: #fff;
 }
+
+.navbar-brand {
+    padding-top: 0.5rem;
+}
 .text-red{
     color: #f72210 !important;
 }
 
 .bg-red {
     background-color: #f72210 !important;
+}
+
+#main-nav .nav-item .btm-sm {
+    padding: 0 !important;
+}
+
+#subscribe {
+    border-radius: 0;
+    padding: 0.08rem 0.3rem !important;
+    margin-top: 5px;
+}
+
+#sign-in {
+    font-weight: 600;
 }
 
 /*
@@ -170,7 +188,7 @@ END GENERAL STYLES
 
 /* START Main Cont */
 
-#top-story-img {
+.top-story-img {
     width: 100%;
     margin-right: 1rem;
 }
@@ -591,6 +609,9 @@ FOOTER END
         max-height: 240px !important;
     }
 
+    .mag-title a {
+        font-size: 20px;
+    }
     /* In Magazine END */
 
     /* FOOTER */
